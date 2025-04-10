@@ -19,9 +19,10 @@ body {
 .role_button {
   background-color: #131315;
   color: white;
+  border: none;
 }
 
-.role_button{
+.role_button:hover{
   color:#bc6aff;
 }
 
