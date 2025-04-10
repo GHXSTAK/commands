@@ -20,6 +20,7 @@ body {
 }
 
 .bar{
+  display: flex;
   align-items: center;
 }
 
@@ -28,7 +29,6 @@ body {
 }
 
 .role_button {
-  display: flex;
   background-color: #131315;
   color: white;
   border: none;
@@ -39,7 +39,6 @@ body {
 }
 
 .bar_divider {
-  display: flex;
   border-left: 1px solid white;
   align-self: stretch;
   margin-left: 1rem;
@@ -47,7 +46,6 @@ body {
 }
 
 .input_search_bar {
-  display: flex;
   background-color: #131315;
   border: 1px solid #9013FB;
   color: white;
