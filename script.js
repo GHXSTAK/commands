@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Fetching the data from the external file (commands.txt)
+  // Fetching the data from the external file (commands_list.txt)
   fetch('commands_list.txt')
-    .then(res => {
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
-      }
-      return res.text();
-    })
+    .then(res => res.text())
     .then(text => {
       // Split the text from the file by line
       const rows = text.trim().split('\n');
@@ -21,22 +16,24 @@ document.addEventListener("DOMContentLoaded", function() {
         // Create a new table row
         const tr = document.createElement('tr');
 
-        // Insert HTML for each column in the row
-        tr.innerHTML = `
-          <td class="com">
-            <span class="cmdp">${cmd[0]}</span>${cmd.slice(1)}
-          </td>
-          <td class="per">${perm}</td>
-          <td class="res">
-            <div class="love_restxt" title="${use}">${res}</div>
-          </td>
-        `;
+        // Create and append each column in the row
+        const cmdCell = document.createElement('td');
+        cmdCell.classList.add('com');
+        cmdCell.innerHTML = `<span class="cmdp">${cmd[0]}</span>${cmd.slice(1)}`;
+        tr.appendChild(cmdCell);
+
+        const permCell = document.createElement('td');
+        permCell.classList.add('per');
+        permCell.textContent = perm;
+        tr.appendChild(permCell);
+
+        const resCell = document.createElement('td');
+        resCell.classList.add('res');
+        resCell.innerHTML = `<div class="love_restxt" title="${use}">${res}</div>`;
+        tr.appendChild(resCell);
         
         // Append the row to the table body
         tbody.appendChild(tr);
       });
-    })
-    .catch(err => {
-      console.error('Fetch error: ', err);
     });
 });
