@@ -83,3 +83,8 @@ td {
   padding: 5px 10px;
   border: none;
 }
+
+.res {
+  font-size: 75%;
+  color:#999999;
+}
