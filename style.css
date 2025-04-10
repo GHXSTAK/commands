@@ -16,7 +16,7 @@ body {
 }
 
 .channel_commands_block{
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .bar{
@@ -60,7 +60,7 @@ body {
 }
 
 .command_btn {
-  
+  margin-left: 10px;
 }
 
 .cmdp {
@@ -83,10 +83,17 @@ td {
 }
 
 .command_bl, .permission_col, .response_col {
-  display: flex;
   align-items: center;
   text-align: center;
   border-bottom: 1px solid white;
+}
+
+.command_col {
+  width: 25%
+}
+
+.response_col {
+  width: 50%;
 }
 
 .command_bl {
