@@ -100,8 +100,12 @@ td {
 }
 
 .command_btn {
-  padding: 5px 10px;
+  display: flex;
   border: none;
+}
+
+.command_txt {
+  display: flex;
 }
 
 .res {
