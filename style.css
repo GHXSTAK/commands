@@ -62,6 +62,7 @@ body {
 
 th {
   width: auto;
+  border-bottom: 1px solid white;
 }
 
 td {
