@@ -11,6 +11,11 @@ body {
   background-position: center;
 }
 
+.bar{
+  display: flex;
+  align-items: center;
+}
+
 .title {
   font-size: 200%;
   color: #e3c255;
@@ -24,6 +29,13 @@ body {
 
 .role_button:hover{
   color:#bc6aff;
+}
+
+.bar_divider {
+  border-left: 1px solid white;
+  align-self: stretch;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .input_search_bar {
