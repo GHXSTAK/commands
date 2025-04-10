@@ -59,6 +59,11 @@ body {
   color:#9013FB
 }
 
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 tr {
   width: auto;
   border-bottom: 1px solid white;
@@ -72,11 +77,12 @@ td {
 .command_bl, .permission_col, .response_col {
   display: flex;
   align-items: center;
+  text-align: center;
   border-bottom: 1px solid white;
 }
 
 .command_bl {
-  gap: 10px;
+  margin-right: 5px;
 }
 
 .command_btn {
