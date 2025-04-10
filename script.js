@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Fetching the data from the external file (commands.txt)
   fetch('commands_list.txt')
-    .then(res => res.text())
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(`HTTP error! Status: ${res.status}`);
+      }
+      return res.text();
+    })
     .then(text => {
       // Split the text from the file by line
       const rows = text.trim().split('\n');
@@ -31,5 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         tbody.appendChild(tr);
       });
     })
-    .catch(error => console.error('Error fetching commands.txt:', error));
+    .catch(err => {
+      console.error('Fetch error: ', err);
+    });
 });
