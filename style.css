@@ -3,3 +3,17 @@ body {
   font-family: sans-serif;
   color: white;
 }
+
+.input_search_bar {
+  background-color: #131315;
+  border: 1px solid #9013FB;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.input_search_bar:focus {
+  border-color: #bc6aff;
+  box-shadow: 0 0 5px #9013FB;
+}
