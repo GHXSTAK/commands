@@ -4,15 +4,16 @@ body {
   color: white;
 }
 
+.title {
+}
+
 .option_btn {
-  background-color: #131315;
+  background: #131315;
   color: white;
 }
 
-
-
 .input_search_bar {
-  background-color: #131315;
+  background: #131315;
   border: 1px solid #9013FB;
   color: white;
   outline: none;
