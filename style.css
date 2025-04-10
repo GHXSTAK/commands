@@ -5,15 +5,20 @@ body {
 }
 
 .title {
+  font-size:
 }
 
-.option_btn {
-  background: #131315;
+.role_button {
+  background-color: #131315;
   color: white;
 }
 
+.role_button{
+  color:#bc6aff;
+}
+
 .input_search_bar {
-  background: #131315;
+  background-color: #131315;
   border: 1px solid #9013FB;
   color: white;
   outline: none;
