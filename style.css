@@ -55,3 +55,12 @@ body {
 .cmdp {
   color:#9013FB
 }
+
+td {
+  padding: 1rem;
+  vertical-align:middle;
+}
+
+thead {
+  padding: 1.5rem
+}
