@@ -1,0 +1,21 @@
+!song  Everyone  Displays the song currently played
+!leaderboard  Everyone  Displays the top 5 yappers
+!rank  Everyone  Gives your or someone else's yapper rank
+!daily  Everyone  Gives your daily rank
+!followage  Everyone  Gives
+!watchtime  Everyone
+!clip  Everyone
+!raid  Everyone
+!dap  Everyone
+!fmk  Everyone
+!fmkdbd  Everyone
+!love  Everyone
+!lurk  Everyone
+!pp  Everyone
+!spank  Everyone
+!sr  Clique
+!discord  Clique
+!tiktok  Clique
+!game  Mod
+!so  Mod
+!title  Mod
