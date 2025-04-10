@@ -1,21 +1,22 @@
 !song  Everyone  Displays the song currently played
 !leaderboard  Everyone  Displays the top 5 yappers
-!rank  Everyone  Gives your or someone else's yapper rank
-!daily  Everyone  Gives your daily rank
-!followage  Everyone  Gives
-!watchtime  Everyone
-!clip  Everyone
-!raid  Everyone
-!dap  Everyone
-!fmk  Everyone
-!fmkdbd  Everyone
-!love  Everyone
-!lurk  Everyone
-!pp  Everyone
-!spank  Everyone
-!sr  Clique
-!discord  Clique
-!tiktok  Clique
-!game  Mod
-!so  Mod
-!title  Mod
+!rank  Everyone  Shows your or someone else's yapper rank based on messages sent
+!daily  Everyone  Shows your or someone else's daily rank based on the daily redemption
+!followage  Everyone  Shows how much time you or someone else've been following this freak
+!watchtime  Everyone  Shows how much time you or someone else've been watching this freak
+!clip  Everyone  Creates a clip of the last 30s
+!raid  Everyone  Gives out the raid message
+!dap  Everyone  Good way to greet each other
+!fmk  Everyone  Picks 3 randoms of the stream to fuck/marry/kill
+!fmkdbd  Everyone  Picks 3 random characters of DBD to fuck/marry/kill
+!love  Everyone  Checks your love percentage with someone else
+!lurk  Everyone  If you gotta go, this is the one you need to use
+!pp  Everyone  Checks your or someone else's dick size
+!spank  Everyone  For the ones who deserve some spanking
+!tatas  Everyone  Checks your or someone else's boob size
+!sr  Clique  Allows VIP and mods to request a song to Spotify
+!discord  Clique  The Discord link
+!tiktok  Clique  The Tiktok link
+!game  Mod  Changes the game according to your input
+!so  Mod  Shoutout to the user
+!title  Mod  Changes the stream title to your input
