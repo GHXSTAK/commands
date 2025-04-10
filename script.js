@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Fetching the data from the external file (commands.txt)
-  fetch('commands.txt')
+  fetch('commands_list.txt')
     .then(res => res.text())
     .then(text => {
       // Split the text from the file by line
