@@ -1,39 +1,72 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   // Fetching the data from the external file (commands_list.txt)
-  fetch('commands_list.txt')
-    .then(res => res.text())
-    .then(text => {
-      // Split the text from the file by line
-      const rows = text.trim().split('\n');
-      // Get the table body element
-      const tbody = document.querySelector('.tablist tbody');
+  fetch("commands_list.txt")
+    .then((res) => res.text())
+    .then((text) => {
+      const rows = text.trim().split("\n");
+      const tbody = document.querySelector(".tablist tbody");
 
-      // Loop through each row of the file
-      rows.forEach(row => {
-        // Split the row data by tab
-        const [cmd, perm, res] = row.split('\t');
-        
-        // Create a new table row
-        const tr = document.createElement('tr');
+      // Fill table with data
+      rows.forEach((row) => {
+        const [cmd, perm, res] = row.split("\t");
 
-        // Create and append each column in the row
-        const cmdCell = document.createElement('td');
-        cmdCell.classList.add('com');
+        const tr = document.createElement("tr");
+
+        const cmdCell = document.createElement("td");
+        cmdCell.classList.add("com");
         cmdCell.innerHTML = `<span class="cmdp">${cmd[0]}</span>${cmd.slice(1)}`;
         tr.appendChild(cmdCell);
 
-        const permCell = document.createElement('td');
-        permCell.classList.add('per');
+        const permCell = document.createElement("td");
+        permCell.classList.add("per");
         permCell.textContent = perm;
         tr.appendChild(permCell);
 
-        const resCell = document.createElement('td');
-        resCell.classList.add('res');
-        resCell.textContent = res;;
+        const resCell = document.createElement("td");
+        resCell.classList.add("res");
+        resCell.textContent = res;
         tr.appendChild(resCell);
-        
-        // Append the row to the table body
+
         tbody.appendChild(tr);
+      });
+
+      // === DROPDOWN FILTERING ===
+      const button = document.getElementById("dropdownButton");
+      const label = document.getElementById("dropdownLabel");
+      const list = document.getElementById("dropdownList");
+
+      const tableRows = document.querySelectorAll(".tablist tbody tr");
+
+      button.addEventListener("click", () => {
+        const isOpen = list.hidden === false;
+        list.hidden = isOpen;
+        button.setAttribute("aria-expanded", String(!isOpen));
+      });
+
+      list.addEventListener("click", (e) => {
+        if (e.target.tagName.toLowerCase() === "li") {
+          const role = e.target.getAttribute("data-role");
+          label.textContent = role;
+          list.hidden = true;
+          button.setAttribute("aria-expanded", "false");
+
+          tableRows.forEach((row) => {
+            const roleCell = row.querySelector(".per");
+            if (role === "Everyone") {
+              row.style.display = "";
+            } else {
+              row.style.display =
+                roleCell.textContent.trim() === role ? "" : "none";
+            }
+          });
+        }
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!button.contains(e.target) && !list.contains(e.target)) {
+          list.hidden = true;
+          button.setAttribute("aria-expanded", "false");
+        }
       });
     });
 });
