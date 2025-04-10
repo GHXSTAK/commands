@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Loop through each row of the file
       rows.forEach(row => {
         // Split the row data by tab
-        const [cmd, perm, res, use] = row.split('\t');
+        const [cmd, perm, res] = row.split('\t');
         
         // Create a new table row
         const tr = document.createElement('tr');
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const resCell = document.createElement('td');
         resCell.classList.add('res');
-        resCell.innerHTML = `<div class="love_restxt" title="${use}">${res}</div>`;
+        resCell.textContent = res;;
         tr.appendChild(resCell);
         
         // Append the row to the table body
