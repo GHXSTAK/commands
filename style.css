@@ -3,6 +3,13 @@ body {
   font-family: sans-serif;
   color: white;
 }
+.header_image{
+  width: 100%;
+  height: 200px;
+  background-image: url("header.png");
+  background-size: cover;
+  background-position: center;
+}
 
 .title {
   font-size: 200%;
