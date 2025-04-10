@@ -4,6 +4,13 @@ body {
   color: white;
 }
 
+.option_btn {
+  background-color: #131315;
+  color: white;
+}
+
+
+
 .input_search_bar {
   background-color: #131315;
   border: 1px solid #9013FB;
@@ -16,4 +23,8 @@ body {
 .input_search_bar:focus {
   border-color: #bc6aff;
   box-shadow: 0 0 5px #9013FB;
+}
+
+.cmdp {
+  color:#9013FB
 }
