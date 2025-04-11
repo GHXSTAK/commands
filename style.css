@@ -67,6 +67,12 @@ body {
   color:#9013FB
 }
 
+.arrow {
+  fill: white;
+  width: 1em;
+  height: 1em;
+}
+
 table {
   width: 100%;
   table-layout: fixed;
@@ -100,7 +106,8 @@ td {
   border: none;
 }
 
-.command_txt {
+.command_txt, permission_txt, response_txt {
+  padding: 0px;
   display: flex;
 }
 
