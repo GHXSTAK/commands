@@ -2,6 +2,9 @@ body {
   background-color: #131315;
   font-family: sans-serif;
   color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 .header_image{
   width: 100%;
