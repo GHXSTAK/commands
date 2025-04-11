@@ -6,7 +6,6 @@ body {
 .header_image{
   width: 100%;
   height: 200px;
-  background-image: url("header.png");
   background-size: cover;
   background-position: center;
 }
@@ -19,9 +18,16 @@ body {
   padding: 1rem;
 }
 
+.main_content_block {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
 .bar{
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .title {
