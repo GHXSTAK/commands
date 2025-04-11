@@ -82,21 +82,16 @@ td {
   vertical-align: middle;
 }
 
-.command_bl, .permission_col, .response_col {
+.command_bl, .permission_bl, .response_bl {
+  display: flex;
   align-items: center;
   text-align: center;
   border-bottom: 1px solid white;
-}
-
-.command_col {
-  width: 25%
-}
-
-.response_col {
-  width: 50%;
+  padding: 1rem;
 }
 
 .command_bl {
+  justify-content: flex-start;
   margin-right: 5px;
 }
 
