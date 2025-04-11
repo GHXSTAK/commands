@@ -26,7 +26,7 @@
             <button class="role_button" type="button" role=combobox>
               <span style="pointer-events:none;">Everyone</span>
               <span aria-hidden="true" class="dropdown_icon">
-                <svg class="SvgIcon-root " focusable="false" viewBox="0 0 24 24">
+                <svg class="arrow" focusable="false" viewBox="0 0 24 24">
                   <path d="M7.684 9.689a.699.699 0 00-.97 0 .656.656 0 000 .945l4.801 4.677c.268.261.702.261.97 0l4.801-4.677a.656.656 0 000-.945.699.699 0 00-.97 0L12 13.894 7.684 9.689z"></path>
                 </svg>
               </span>
@@ -41,6 +41,11 @@
           <div class="search_bar">
             <input class="input_search_bar" type="text" placeholder="Search" name="search">
             <label for="search" class="input_search_label"></label>
+            <span class="search_icon">
+                <svg class="magnifier">
+                  <path d="M14.71 14h.79l4.24 4.26c.41.41.41 1.08 0 1.49-.41.41-1.08.41-1.49 0L14 15.5v-.79l-.27-.28a6.5 6.5 0 01-5.34 1.48c-2.78-.47-5-2.79-5.34-5.59a6.505 6.505 0 017.27-7.27c2.8.34 5.12 2.56 5.59 5.34a6.5 6.5 0 01-1.48 5.34l.28.27zM5 9.5C5 11.99 7.01 14 9.5 14S14 11.99 14 9.5 11.99 5 9.5 5 5 7.01 5 9.5z"></path>
+                </svg>
+            </span>
           </div>
         </div>
       <div class="table_block">
@@ -50,7 +55,12 @@
               <th class="command_col">
                 <div class="command_bl">
                   <p class="command_txt">Command</p>
-                  <button type="button" class="command_btn"></button>
+                  <button type="button" class="command_btn">
+                    <span aria-hidden="true" class="dropdown_icon">
+                      <svg class="arrow" focusable="false" viewBox="0 0 24 24">
+                        <path d="M7.684 9.689a.699.699 0 00-.97 0 .656.656 0 000 .945l4.801 4.677c.268.261.702.261.97 0l4.801-4.677a.656.656 0 000-.945.699.699 0 00-.97 0L12 13.894 7.684 9.689z"></path>
+                      </svg>
+                  </button>
                 </div>
               </th>
               <th class="permission_col">
