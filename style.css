@@ -127,7 +127,7 @@ com{
   transition: color 0.5s ease
 }
 
-com:hover {
+td:hover {
   color:#9013FB
 }
 
