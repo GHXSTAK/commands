@@ -122,6 +122,14 @@ td {
   vertical-align: middle;
 }
 
+com{
+  transition: color 0.5s ease
+}
+
+com:hover {
+  color:#9013FB
+}
+
 .command_bl, .permission_bl, .response_bl {
   display: flex;
   align-items: center;
