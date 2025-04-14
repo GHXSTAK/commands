@@ -1,4 +1,4 @@
-!song	Everyone	Displays the song currently played
+!song	Everyone	Displays the song currently played  "Lover Boy" by Lil Peep
 !leaderboard	Everyone	Displays the top 5 yappers
 !rank	Everyone	Shows your or someone else's yapper rank based on messages sent
 !daily	Everyone	Shows your or someone else's daily rank based on the daily redemption
