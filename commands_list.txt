@@ -1,6 +1,6 @@
-!song	Everyone	Displays the song currently played  'ghost boy' by Lil Peep
-!leaderboard	Everyone	Displays the top 5 yappers  Top 5 Chatters: #1 - Kevin (69)...
-!rank	Everyone	Shows your or someone else's yapper rank based on messages sent @Kevin is #80 you sent 69 messages
+!song	Everyone	Displays the song currently played	'ghost boy' by Lil Peep
+!leaderboard	Everyone	Displays the top 5 yappers	Top 5 Chatters: #1 - Kevin (69)...
+!rank	Everyone	Shows your or someone else's yapper rank based on messages sent	@Kevin is #80 you sent 69 messages
 !daily	Everyone	Shows your or someone else's daily rank based on the daily redemption
 !followage	Everyone	Shows how much time you or someone else've been following this freak
 !watchtime	Everyone	Shows how much time you or someone else've been watching this freak
