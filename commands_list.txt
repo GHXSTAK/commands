@@ -8,15 +8,15 @@
 !raid	Everyone	Gives out the raid message
 !dap	Everyone	Good way to greet each other
 !fmk	Everyone	Picks 3 randoms of the stream to fuck/marry/kill
-!fmkdbd	Everyone	Picks 3 random characters of DBD to fuck/marry/kill
+!fmkdbd	Everyone	Picks 3 random characters of DBD to fuck/marry/kill	Fuck - Unknown | Marry - Huntress | Kill - Meg
 !love	Everyone	Checks your love percentage with someone else
 !lurk	Everyone	If you gotta go, this is the one you need to use
-!pp	Everyone	Checks your or someone else's dick size
+!pp	Everyone	Checks your or someone else's dick size	Kevin has a 5' long pp
 !spank	Everyone	For the ones who deserve some spanking
 !tatas	Everyone	Checks your or someone else's boob size
 !sr	Clique	Allows VIP and mods to request a song to Spotify
 !discord	Clique	The Discord link
 !tiktok	Clique	The Tiktok link
 !game	Mod	Changes the game according to your input
-!so	Mod	Shoutout to the user
+!so	Mod	Shoutout to the user	Show some support to our fellow streamer Kevin on https://www.twitch.tv/kevin who played Valorant recently ✨
 !title	Mod	Changes the stream title to your input
