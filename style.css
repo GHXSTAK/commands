@@ -131,6 +131,10 @@ td:hover {
   color:#9013FB
 }
 
+res {
+  transition: white 0.2s ease;
+}
+
 .command_bl, .permission_bl, .response_bl {
   display: flex;
   align-items: center;
